@@ -1,7 +1,7 @@
 {
-  "name": "Spring Boot Spring Demo",
-  "description": "LockDown - This tag demonstrates the default behavior where all paths in the application are protected.",
-  "repository": "https://github.com/stormpath/spring-boot-spring-security-tutorial/tree/LockDown",
+  "name": "Spring Boot Spring Security",
+  "description": "LockedDown - This tag demonstrates the default behavior where all paths in the application are protected.",
+  "repository": "https://github.com/stormpath/spring-boot-spring-security-tutorial/tree/01-LockedDown",
   "keywords": ["spring boot", "identity", "security", "authentication"],
   "success_url": "/",
   "env": {
