@@ -1,7 +1,7 @@
 {
   "name": "Spring Boot Spring Security",
-  "description": "BasicAccessControl - This tag demonstrates protecting some paths and not others.",
-  "repository": "https://github.com/stormpath/spring-boot-spring-security-tutorial/tree/02-BasicAccessControl",
+  "description": "GroupAccessControl - This tag demonstrates restricting access by Stormpath Group membership.",
+  "repository": "https://github.com/stormpath/spring-boot-spring-security-tutorial/tree/03-GroupAccessControl",
   "keywords": ["spring boot", "identity", "security", "authentication"],
   "success_url": "/",
   "env": {
@@ -15,6 +15,10 @@
     },
     "STORMPATH_APPLICATION_HREF": {
       "description": "The URL for your Stormpath Application from the Stormpath Admin Dashboard",
+      "value": "changeme"
+    },
+    "STORMPATH_AUTHORIZED_GROUP_ADMIN": {
+      "description": "The URL for your Stormpath Group from the Stormpath Admin Dashboard",
       "value": "changeme"
     }
   }
